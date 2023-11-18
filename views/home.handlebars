@@ -1,0 +1,605 @@
+
+{{!-- navbar started here --}}
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+  <a class="navbar-brand" href="/"> <img style="border-radius: 50%; width:3rem;" src="img/okiz-trailer.jpg" alt=""> Okiz Contemporary Ltd</a>
+  <a class="navbar-brand" href="#">{{title}}</a>
+ 
+   {{!-- <a style="color: yellow;" class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a> --}}
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      {{#if user}}
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Logout</a>
+      </li>
+      {{else}}
+      <li class="nav-item active">
+        <a style="color: yellow;" class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/">About us</a>
+      </li>
+
+      {{!-- <li class="nav-item">
+        <a class="nav-link" href="more-information">More information</a>
+      </li> --}}
+
+      {{!-- <li class="nav-item">
+        <a class="nav-link" href="become-our-customer"> <svg style="width: 20px;" id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260"><defs><style>.cls-1,.cls-1{fill:#dfac08;}.cls-1{fill-rule:evenodd;}</style></defs><title>15</title><circle class="cls-1" cx="100" cy="60" r="50"/><path class="cls-1" d="M144.27,126.79a89.36,89.36,0,0,0-12.9-4.22,70,70,0,0,1-62.76,0A90,90,0,0,0,0,210v20H117.55a85,85,0,0,1,26.73-103.21Z"/><path class="cls-1" d="M195,130a65,65,0,1,0,65,65A65,65,0,0,0,195,130Zm25,75H205v25H185V205H160V185h25V160h20v25h35Z"/></svg> become a customer</a>
+      </li>  --}}
+
+      <li class="nav-item">
+          <a class="nav-link" href="contact-us">Contact us</a>
+      </li>
+      
+      {{/if}}
+      
+    </ul>
+    
+  </div>
+</nav>
+
+{{!-- navbar ended here --}}
+
+<div id="top-div" class="row" style="margin-top: 1rem;">
+
+  <div class="col-md-6 first-top-right-div">
+    <img src="img/okiz-trailer.jpg" alt="">
+  </div>
+
+    <div class="col-md-6 first-top-left-div">
+        <h1>Welcome to Okiz Transport and logistics services</h1>
+
+      <p class="we-take-care-p">
+We offer you a variety of resources aligned with your needs for freight transport, storage, order 
+preparation and customs clearance, with availability 365 days a year.
+        </p>
+
+        {{!-- <a href="become-our-customer" class="btn btn-lg text-white shadow access-btn">become our customer</a> <br><br>
+        &nbsp; &nbsp;  <a class="top-div-more-information" href="more-information">More information</a> <br>
+         --}}
+    </div>
+
+
+</div>
+
+
+<section id="section-2-homepage">
+  <div class="container second-top-div">
+    <h2>More than 1 million customers enjoy our services.</h2>
+  </div>
+  {{!-- <a style="margin-bottom: 5rem;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn hover-more-than">become our customer</a> --}}
+</section>
+
+<section id="section-3-homepage">
+  <h2 class="section-3-homepage-h1">Your logistics, in good hands</h2>
+  <p>We can move your products anywhere in Nigeria. We store your goods and serve them on demand. We support you in international trade.
+We are part of your logistics chain. We boost your business.
+</p>
+  {{!-- <div class="row">
+    <div class="col-md-6 section-3-homepage-top-column ">
+        <p class="section-3-homepage-p">Online Account Without Commissions</p>
+        <h2 class="section-3-homepage-h1">Become a customer with the Online Account Without Commissions</h2>
+        <p>
+          No account administration and maintenance fee. 0% NIR 0% APR.</p>
+        <p>No commission for issuance and maintenance of the debit card.</p>
+        <p>No commission for withdrawing cash on debit at the more than 4,500 Billtar ATMs in Spain.</p>
+        <p>No commission for online transfers in the Billtar Economic Area</p>
+        <p>Open it in less than 10 minutes.</p>
+
+        <br>
+    </div>
+
+    <div class="col-md-6" style=" float: left; margin-top: 2rem;">
+            <h3 style="font-size: 1.5rem;"> We lower our prices!</h3>
+            <p>Quick loan for new customers.</p>
+            <p>Up to 20.000€. No opening fee</p>
+            <a href="more-information" class="btn btn-lg text-white shadow access-btn">Learn more</a>
+        </div>
+
+
+    </div> --}}
+  </div>
+</section>
+
+<section id="section-4-homepage">
+
+  <div class="row section-4-homepag-row">
+
+    <div class="col-md-6">
+      <img src="img/okiz-yellow-trailer.jpg" alt="">
+    </div>
+
+    <div class="col-md-6 section-4-content">
+     <h3 class="section-4-homepag-row-h3">National road transport</h3>
+     <p class="section-4-homepag-row-p"><span>Send and receive your goods in any part of Nigeria with peace of mind by
+       hiring a professional, punctual and safe transport service
+       and with the ability to deliver door-to-door. </span>
+       </p>
+          {{!-- <a style="float: left;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn">become our customer</a> <br><br><br> --}}
+    </div>
+
+
+  </div>
+
+</section>
+
+<section id="section-5-homepage">
+  <div class="row section-5-homepag-row">
+    <div class="col-md-6">
+      <img class="section-5-homepag-row-img" src="img/otiz-loading-truck.png" alt="">
+    </div>
+
+    <div class="col-md-6 ">
+     <h2>
+      Your goods, from origin to destination, without setbacks
+     </h2>
+     <p>
+      We manage the national road transport of your goods in a single call and from the peace of your office.
+     </p>
+     <p>
+      By delegating the truck transport operation to us, you will have a professional at your side who will advise you 
+      and update you at all times. You will only have to tell us the loading and offloading location, and 
+      we will do the rest.
+     </p>
+     <p>
+      Your merchandise will be handled and loaded in the safest way to guarantee a smooth trip. We've been doing this 
+      for many years. 
+      Regardless of the type of merchandise, we ensure delivery in optimal conditions and within the agreed time frame.
+     </p>
+     <p>
+      If you want our professional services, please kindly contact us.
+     </p>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row section-6-homepage-row">
+    <div class="col-md-6">
+      <h3 class="section-6-homepag-row-h3">Types of Road Transport</h3>
+      <p class="section-6-homepag-row-p">
+In the form of land transportation in national territory, we carry out operations with almost any type of merchandise,
+ both for companies and for the end customer.
+        </p>
+        <ul>
+          <li><a href="">Transport of special cargo</a> of oversized goods.</li>
+          <li><a href="">Transport of chemicals and dangerous goods</a> (ADR).</li>
+          <li>Transportation of temperature-controlled merchandise in refrigerated trucks.</li>
+          <li>Transport of liquids or powders in tanks.</li>
+          <li><a href="">Intermodal transport Road – Rail</a></li>
+          <li>Intermodal Road – Maritime Transport.</li>
+          <li>Transport in partial LTL regime through batches or half loads.</li>
+          <li>Groupages of industrial parcel goods, pallets or non-palletized merchandise.</li>
+          <li>Transportation of industrial waste.</li>
+          <li>Transport of bulk goods.</li>
+          <li>Express service for urgent shipments.</li>
+         
+        </ul>
+
+    </div>
+    <div class="col-md-6">
+      <img class="section-5-homepag-row-img" src="img/lorries-at-warehouse.jpg" alt="">
+
+        <p>
+          In addition to full load and part load or groupage transport, we offer related services to improve delivery:
+        </p>
+        <ul>
+          <li>Loading and unloading of goods.</li>
+          <li>Palletizing</li>
+          <li>Transshipment of goods and cross-docking.</li>
+        </ul>
+    </div>
+
+    
+  </div>
+</section>
+
+<section id="section-7-homepage" class="container">
+  <div class="row">
+       <div class="col-md-4">
+     <a href="">
+             <img src="img/transport-of-loads-with-special-measures-by-road.jpg" alt="">
+     <div>
+          <h5>Exceptional Road Transport</h5>
+        <p>
+          Exceptional transport of oversized cargo such as modular houses or infrastructure for renewable energies.
+        </p>
+     </a>
+     </div>
+
+    </div>
+
+    <div class="col-md-4">
+      <a href="">
+      <img src="img/transport-of-dangerous-goods-by-road-adr-truck-340x200.jpg" alt="">
+      <div>
+        <h5>Transport of Dangerous Goods by road</h5>
+        <p>
+          Service for the safe transport of dangerous goods by road in accordance with ADR recommendations.
+        </p>
+      </div>
+      </a>
+    </div>
+
+    <div class="col-md-4">
+      <a href="">
+      <img src="img/international-road.jpg" alt="">
+      <div>
+      <h5>International Road Freight Transport</h5>
+       <p>
+        International road freight transport service with high availability of vehicles and dates.
+       </p>
+      </div>
+      </a>
+    </div>
+
+  </div>
+
+  {{!-- <a href="become-our-customer" class="btn btn-lg text-white shadow access-btn">become our customer</a> --}}
+
+</section>
+
+<section id="section-8-homepage">
+  <div class="row">
+
+    <div class="col-md-6 section-8-homepage-second-col">
+      <h3> Road Transport Operations Are Different</h3>
+      <p style="font-size: 1.2rem;"> Depending on the type of cargo being transported, each operation has different requirements.</p>
+      <p>
+        For example, the precautionary measures taken in the transport of dangerous goods are not the same as those taken 
+        in the case of special loads or when transporting goods that require a sub-zero temperature.
+        </p>
+       <p>
+        At Okiz Logistics, we are aware of this, which is why our catalogue of truck services specialises in different 
+        types of transport, covering various scenarios of loading, unloading, handling and relevant authorisations.
+       </p>
+    </div>
+
+    <div class="col-md-6">
+      <img class="section-5-homepag-row-img"  src="img/transport-of-oversized-special-cargo-by-road.jpg" alt="">
+      <p>We guarantee you different road transport services:</p>
+      <ul>
+        <li>
+          <h4>General Transport</h4>
+          <p>
+            The transport of dry goods or general cargo does not require any particular handling or treatment.
+          </p>
+          <p>Unlike bulk or tank transport, this type of goods is usually palletised to facilitate loading and 
+            unloading of the vehicle.
+          </p>
+           <p>Break bulk cargo is cargo that is transported unconsolidated, such as packages, boxes or sacks with
+             their own packaging. Unit loads are goods that travel in groups of pallets.
+             </p>
+        </li>
+
+        <li>
+          <h4>Transport of Special Cargo</h4>
+          <p>
+            Heavy or oversized cargo requires the availability of suitable transport to transport it, whether 
+            it is machinery, industrial or construction elements.
+          </p>
+          <p>
+            Normally, in this circumstance it is essential to use special machinery for handling, 
+            loading and unloading, such as large tonnage machinery or cranes.
+          </p>
+           <p>
+            At Okiz Logistics, we have qualified personnel, the relevant authorisations and the best vehicles for this service.
+           </p>
+
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  {{!-- second div row starts here --}}
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="img/transport-of-dangerous-goods-by-road.jpg" alt="">
+    </div>
+    <div class="col-md-6">
+      <ul>
+        <li>
+          <h4>Transport of Dangerous Goods</h4>
+          <p>
+            The transport of dangerous cargo or ADR transport represents another level in terms of the safety and 
+            precautionary measures that must be taken.
+          </p>
+          <p>
+            In addition, specific licences and authorisations are required for each transport and a number of 
+            specific documents and forms must be completed per operation.
+          </p>
+          <p>
+            This is because chemicals and hazardous materials pose a very high risk factor to the environment and 
+            human safety. For these reasons, the importance of this type of transport should not be underestimated.
+          </p>
+          <p>
+            However, at Okiz Logistics, we know how to transport and operate with dangerous goods, either by 
+            rail or by lorry across the roads to guarantee shipments covered by the ADR agreement.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  {{!-- third div row starts here --}}
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="img/inland-transport-of-bulk-goods-by-road.jpg" alt="">
+    </div>
+    <div class="col-md-6">
+      <ul>
+        <li>
+          <h4>Transport of Bulk Cargo</h4>
+          <p>
+           This is the transport of a large volume of goods without prior palletising, packing or packaging.
+          </p>
+          <p>
+            This means of road transport requires a special trailer, whether it is a tub, a moving floor or a 
+            tank, in order to transport the goods and minimise their loss.
+          </p>
+          <p>
+            In this case, the correct tools must be used to handle the cargo, especially if it belongs
+             to the branch of goods that are harmful to health.
+          </p>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    {{!-- fourth div row starts here --}}
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="img/otiz-big-truck7.png" alt="">
+    </div>
+    <div class="col-md-6">
+      <ul>
+        <li>
+          <h4>Transport of refrigerated goods</h4>
+          <p>
+           The transport of refrigerated or temperature-controlled cargo is essential for the transport of goods that 
+           require specific conditions for their preservation during transport, whether over short or long distances.
+          </p>
+          <p>
+            The vehicles used for this task are designed to control the temperature of goods such as, for example, foodstuffs 
+            of animal or vegetable origin, pharmaceuticals or personal care products, among others.
+          </p>
+          <p>
+            Products that require preservation of the cold chain, without temperatures being altered at any time. 
+            If this control were not in place, the goods could suffer a deterioration of their properties.
+          </p>
+          <p>
+            At Okiz Logistics, we are proud to be able to offer this type of service for the transport of your goods.
+          </p>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    {{!-- fifth div row starts here --}}
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="img/road-freight-transport-company.jpg" alt="">
+    </div>
+    <div class="col-md-6">
+      <ul>
+        <li>
+          <h4>Advantages of Road Freight Transport</h4>
+          <p>
+           Road haulage has a number of advantages for the customer over other types of transport, 
+           among which we can highlight:
+          </p>
+        </li>
+
+        <li>
+          <h4>The most economical transport in the sector</h4>
+          <p>
+            Road transport is the cheapest option for the transfer of goods over short and medium distances compared to air or
+             sea transport. This is because it does not require specific infrastructures 
+            to reach its destination (such as a port or airport). Of course, this is reflected in the final price.
+          </p>
+        </li>
+
+        <li>
+          <h4>Great Flexibility</h4>
+          <p>
+            This type of transport stands out for its capacity to move both heavy and light loads, and is also preferred for
+             moving foodstuffs (perishable products) that need to be delivered quickly to any city, province or town.
+          </p>
+        </li>
+
+        <li>
+          <h4>Cargo protection</h4>
+          <p>
+            Although road transport covers the shipment of practically all types of products or goods, whether light or heavy 
+            vehicles, foodstuffs, hydrocarbons or hazardous materials, a series of safety regulations are always followed to 
+            the letter to support the protection of the cargo according to its type, including the responsibility of the driver in charge of its transport.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+    {{!-- sixth div row starts here --}}
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="img/our-truck-and-yard.jpg" alt="">
+    </div>
+    <div class="col-md-6">
+      <ul>
+        <li>
+          <h4>Tracking of goods</h4>
+           <p>A feature shared by most logistics companies is the GPS geolocation of their vehicles.</p>
+           <p>
+            At Okiz Logistics, we apply this feature to our shipments to ensure the safety of road transport. In this 
+            way we are able to observe the inconveniences related to traffic factors and thus be able to forecast delays.
+           </p>
+        </li>
+
+        <li>
+          <h4>Door-to-door delivery</h4>
+          From the moment the goods leave one of our warehouses or from the point of origin, to the door of the consignee,
+           without having to use more than one different vehicle.
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="container" style="font-weight: bold; background-color:#051525; color:#fff; padding:4% 6%;">
+    <p>
+      At Okiz Logistics. we work every day to offer you the punctuality and service you have always wanted in your shipments, 
+      helping you to choose the most appropriate means of transport for your goods and to meet the agreed dates.
+    </p>
+  </div>
+
+    {{!-- eight div row starts here --}}
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <ul>
+        <li>
+         <h2>Requirements for the transport of goods by road</h2>
+         <p>
+          In order to be able to transport goods by road, a number of legal and commercial aspects must be taken into account.
+         </p>
+
+          <h4>Driver requirements</h4>
+         <p>
+          In order for the driver or haulier to be able to drive on the road in accordance with the law, he must have one of the following licences for the carriage of goods:
+         </p>
+         <p>
+          1. MDL: consent to carry light goods.<br>
+          2. MDP: consent to carry heavy goods.
+         </p>
+         <p>
+          These licences are issued by the qualified body of the autonomous community where your tax residence is registered.
+          </p>
+
+        </li>
+         
+      </ul>
+    </div>
+
+      <div class="col-md-6">
+      <img src="img/okiz-cargo-main-branch.jpg" alt="">
+      <ul>
+        <li>
+          <h4>Obligations of the transport company</h4>
+                  <p>
+          The transport company has the obligation to account for the loss, damage or delay of the goods, from loading
+           at the place of origin to unloading at the point of destination.
+        </p>
+        <p>
+          The transport contract must set out the conditions and guarantees, which must not be altered under any circumstances.
+        </p>
+        </li>
+
+        <li>
+          <h4>CMR transport document</h4>
+          <p>
+            The consignment note indicates all the terms and conditions of the road transport contract, however, it is not obligatory if both parties do not explicitly require it.
+          </p>
+          <p>If this document is requested, it is advisable to add all the information such a</p>
+           <p>
+            1. Date and place of issue. <br>
+            2. Name and address of the carrier/consignor. <br>
+            3. Name and address of the carrier. <br>
+            4. Date and place of delivery. <br>
+            5. Name and address of consignee. <br>
+            6. Number of packages. <br>
+            7. Type of packaging.
+           </p>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+
+    {{!-- nineth div row starts here --}}
+
+  <div class="row">
+
+     <div class="col-md-6">
+      <img src="img/transport-of-goods-by-road.jpg" alt="">
+    </div>
+
+    <div class="col-md-6">
+      <ul>
+        <li>
+         <h3>Transport of Dangerous Goods</h3>
+         <p>
+          In the event of having to transport dangerous goods, in the contract or consignment note itself,
+           the person responsible for the load has to detail the condition of the risk together with the appropriate precautions.
+         </p>
+         <p>The following list mentions some products considered as dangerous goods:</p>
+         <p>
+          1. Flammable solid materials. <br>
+          2.  Explosive elements. <br>
+          3.  Flammable liquids. <br>
+           4. Radioactive materials. <br>
+          5.  Self-reactive materials. <br>
+          6.  Toxic materials.
+          </p>
+        </li>
+
+
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+</section>
+
+<section id="information">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="img/branches-ATM.svg" alt="">
+      <p>Branches and ATMs</p>
+      <a href="contact-us">Always close to you</a>
+    </div>
+    <div class="col-md-4">
+      <img src="img/customers-help-center.svg" alt="">
+      <p>Help Center</p>
+      <a href="contact-us">Queries, complaints and incidents</a>
+    </div>
+    <div class="col-md-4">
+      <img src="img/urgent-help2.png" alt="">
+      <p>Urgent help</p>
+      <a href="contact-us">Emergency operations</a>
+    </div>
+  </div>
+
+</section>
+
+
+{{!-- footer section --}}
+
+<div style="text-align: center;" class="footer" >
+  <a class="navbar-brand" href="#">Copyright @ Okiz Contemporary Ltd</a>
+</div>

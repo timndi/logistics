@@ -1,0 +1,901 @@
+
+  
+  
+  #d-wrapper	.zig-zag-top:before{
+      background: 
+            linear-gradient(-45deg, #424344 16px, red 16px, blue 16px,  transparent 0), 
+            linear-gradient(45deg, #393b3b 16px, transparent 0);
+          background-position: left top;
+          background-repeat: repeat-x;
+          background-size: 22px 32px;
+          content: " ";
+          display: block;
+  
+          height: 20px;
+      width: 100%;
+  
+      position: relative;
+      bottom: 64px;
+      left:0;
+    }
+
+  
+  #d-wrapper	.zig-zag-bottom{
+      margin: 32px 0;
+      margin-top: 0;
+    }
+  
+  #d-wrapper	.zig-zag-top{
+      margin: 2rem 0;
+    }
+  
+  #d-wrapper	.zig-zag-bottom,
+  #d-wrapper	.zig-zag-top{
+          padding: 42px 0;
+    }
+  
+    #d-wrapper{
+      text-align: center;
+    }
+ 
+  #d-wrapper	h1{
+       font-size:4em;
+    }
+  
+  #d-wrapper	.zig-zag-bottom:after{
+      background: 
+            linear-gradient(-45deg, transparent 16px, #292c2e 0), 
+            linear-gradient(45deg, transparent 16px, #2c3133  0);
+          background-repeat: repeat-x;
+      background-position: left bottom;
+          background-size: 22px 32px;
+          content: "";
+          display: block;
+  
+      width: 100%;
+      height: 15px;
+  
+         position: relative;
+      top:55px;
+      left:0px;
+    }
+  
+ /* wraper zig-zag ended here */
+
+ /* zig-zag left and right started here */
+
+ p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.mix {border-style: dotted dashed solid double;}
+
+ /* left-right zig-zag ended here */
+/* global and reusable codes */
+ .col-md-4 a{
+  text-decoration: none;
+ }
+
+ h5{
+  color: rgb(11, 11, 97);
+ }
+
+.center{
+  text-align: center;
+}
+
+.create-newAccount-button{
+  background-color: green;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.create-newAccount-button:hover{
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.navbar{
+  background-color: #051525;
+}
+
+.navbar-logo{
+  width: 3rem;
+}
+
+.bargeimage{
+  width: 100px;
+  height: 100px;
+}
+
+.test{
+  color: red;
+  margin-top: 3rem;
+}
+
+/* img{
+  width: 140px;
+  height: 170px;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+/* setting div.row padding and margin to zero must be atthe topifnot it wont work */
+div.row{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  margin: 0 ;
+  padding: 0 ;
+}
+
+
+
+.text-input{
+  padding: 0.6rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e4cdcd;
+  font-size: 1.2em;
+  color: #444;
+  line-height: 1.5rem;
+  font-family: "ubuntu", sans-serif, serif, cursive;
+  margin: 5px 5px 0 0;
+}
+ direct below from secrets
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.secret-text {
+text-align: center;
+font-size: 2rem;
+color: #fff;
+background-color: #000;
+}
+
+ 
+/* section */
+
+
+
+
+h1, h2, h3 {
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+/* navbar section */
+.navbar{
+  font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
+}
+#title {
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1;
+}
+
+.dropdown-menu li a{
+  color: white;
+  padding-left: 2rem;
+}
+.dropdown-menu li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+a.navbar-a-tags{
+  color: rgb(230, 218, 218);
+  font-weight: bold;
+  text-decoration:none ;
+  display: block;
+}
+
+a.navbar-a-tags:hover{
+  color: gold;
+
+}
+.access-btn{
+  background-color: rgb(3, 73, 73);
+  font-family: Helvetica, Arial, sans-serif;
+}
+a.access-btn:hover{
+  background-color: rgb(3, 73, 73);
+  will-change: background-position;
+    background-size: 210% 100%;
+    background-position: 99% center;
+  background-repeat: no-repeat;
+  transition: background-position 0.66667s cubic-bezier(0.24, 0.22, 0.31, 1.07) 0s;
+  background-image: linear-gradient(100deg, rgb(46, 150, 150) 50%, rgb(3, 27, 27) 50%);
+
+}
+
+a.hover-more-than:hover{
+
+}
+
+
+
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+a.active{
+  color: #fff;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+
+}
+.navbar-a-tags{
+  color: white;
+  padding: 0;
+  margin: 1em 1em 0 0;
+}
+
+#icons:hover{
+  color: #fff;
+}
+
+a.become-a-customer-navlink{
+  color: rgb(255, 208, 0);
+
+}
+
+li a.become-a-customer-navlink{
+  width: 100%;
+  margin-left: 10%;
+}
+
+
+
+
+/* fisrt top DIV section */
+#top-div{
+  /* background-color: #f44336; */
+  margin-top: 2.2rem;
+}
+.first-top-left-div{
+  text-align: left;
+  padding: 2rem 0 0 3% ;
+}
+.first-top-right-div{
+  margin: 0;
+  padding: 0;
+}
+.first-top-right-div img{
+  width: 100%;
+}
+
+
+.we-take-care-p{
+  /* margin-bottom: 2rem; */
+}
+
+.top-div-more-information{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* container second-top-div section */
+.second-top-div{
+  margin-top: 3rem ;
+  text-align: center;
+}
+
+/* .become-customer-h1{
+  color: blue;
+  font-weight: bold;
+  margin-left: 22rem;
+  width: 60%;
+} */
+
+/* section 2 starts her */
+.we-love-our-prices-img{
+  width: 80%;
+}
+
+#section-3-homepage{
+  margin-bottom: 3rem;
+  padding: 0 5rem;
+}
+
+.section-3-homepage-top-column{
+  text-align: left;
+  padding-left: 5%;
+}
+
+.section-3-homepage-h1{
+  color: var(--complexmarquee-title-color-light-backgrounds,#004481);
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.section-3-homepage-p{
+  color: #207a7a;
+}
+
+/* section 4 homepage starts here */
+
+.section-4-homepag-row{
+  color: #fff;
+  padding: 5% ;
+  margin-top: 3rem ;
+  /* background-color: #051525;  */
+}
+.section-4-homepag-row div.col-md-6{
+  padding: 0;
+
+}
+.section-4-homepag-row div.col-md-6 img{
+  width: 100%; 
+  margin: 0 0 0.3% 0;
+}
+.section-4-homepag-row div.section-4-content{
+  background-color: #051525;
+  padding:3% 3% 0;
+}
+
+.section-4-homepag-row-h3{
+  width: 70%;
+  text-align: left;
+}
+.section-4-homepag-row-p{
+  width: 92%;
+  text-align: left;
+}
+.section-4-homepag-row-p span{
+  font-weight: bold;
+}
+
+.section-4-homepag-row-a{
+  float: left;
+  margin-left: 2rem;
+}
+
+/* section 5 starts here */
+
+.section-5-homepag-row div.col-md-6{
+  padding: 5% 4% 0 4% ;
+  text-align: left;
+}
+
+.section-5-homepag-row-h3{
+  margin-bottom: 1rem;
+}
+
+.section-5-homepag-row-img{
+  width: 100%; 
+  margin: 0 0 0.3% 0;
+}
+
+/* section 6 starts here */
+.section-6-homepage-row div.col-md-6{
+  margin: 3rem 0 ;
+  text-align: left;
+  padding: 5% 4% 0 4% ;
+}
+.section-6-homepag-row-img{
+  width: 70%;
+}
+.section-6-homepag-row-h3{
+  margin-bottom: 1rem;
+}
+.section-6-homepag-row-p{
+  color: rgb(102, 101, 101);
+}
+
+/* section 7 starts here */
+#section-7-homepage{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+#section-7-homepage p{
+  color: rgb(102, 101, 101);
+  /* font-size: 1.5rem; */
+}
+#section-7-homepage div.row div.col-md-4 img{
+  border-radius: 10px;
+}
+#section-7-homepage div.row div.col-md-4:hover{
+  margin-top: -0rem;
+}
+#section-7-homepage div.row div.col-md-4 div{
+  padding: 5% 10%;
+  text-align: left;
+}
+/* section-8-homepage */
+#section-8-homepage div.col-md-6{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding: 4% ;
+}
+#section-8-homepage img{
+  width: 100%;
+}
+#section-8-homepage p{
+}
+.section-8-homepage-second-col{
+  padding: 10%;
+}
+.section-8-homepage-second-col span{
+  font-weight: bolder;
+}
+.section-8-homepage-second-col h3{
+  margin-bottom: 2rem;
+}
+/* information section */
+#information{
+  margin-bottom: 7rem;
+}
+#information div img{
+  width: 40%;
+}
+#information p{
+  font-size: 1.2rem;
+}
+/* section 8 starts here */
+#section-9-homepage{
+  text-align: left;
+  margin-bottom: 3rem;
+}
+#section-9-homepage span{
+  font-weight: bold;
+  
+}
+#section-9-homepage a{
+  text-decoration: none ;
+}
+#section-9-homepage h4{
+  margin-bottom: 2rem;
+}
+
+/* become-our-customer section */
+.become-our-customer{
+  text-align: left;
+  padding: 5% ;
+}
+
+.become-our-customer div.col-md-4{
+  padding: 3%;
+}
+
+/* customer-account-application section */
+.customer-account-application{
+  padding: 5% ; 
+}
+.customer-account-application a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.customer-account-application div.one-person{
+  background-color: #f44336;
+}
+.customer-account-application div.two-persons:hover{
+  background-color: #f44336;
+}
+/* freelancers-and-companies section */
+div.freelancers-and-companies div.row div.col-md-6{
+  margin: 1rem 0 0 0;
+  text-align: left ;
+  padding: 1% ;
+}
+
+.freelancers-and-companies p{
+  color: #333 ;
+}
+.freelancers-and-companies h1{
+  color: black;
+  font-weight: bolder;
+}
+
+.freelancers-and-companies p{
+  color: #fff;
+}
+.freelancers-and-companies h5{
+  color: #fff;
+}
+
+
+/* more information section */
+.more-info-top-left-div{
+  background-color: #fff;
+  text-align: left;
+  padding: 2rem 0 0 7%;
+
+}
+
+div#more-information-div div.col-md-6{
+  padding: 3% ;
+}
+
+
+/* footer section */
+
+.col-md-4{
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+    background-color: #fff;
+}
+.footer{
+  background-color: #051525;
+}
+.footer a{
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+div.card{
+  background-color: #242a30;
+}
+.contact-form{
+  margin: -0.3rem 0.3rem 0 0;
+}
+.footer .footer-content .footer-section h2{
+  color: #fff;
+}
+.about{
+}
+
+.contact-form{
+  padding-bottom: 2rem;
+  margin: 0 0 0.8rem 0.2rem;
+}
+.footer .footer-content .contact-form .contact-input{
+background-color: #f44336;
+  color: bebdbd;
+  margin-bottom: 5px;
+  line-height: 1.3rem;
+  transition: all .6s;
+}
+.footer .footer-content .contact-form .contact-btn{
+  float: right;
+}
+.footer .footer-content .contact-form .contact-input:focus{
+  /* background-color: #f3f5f7; */
+}
+div.footer-bottom{
+  background-color: #f44336;
+
+  color: #d3d3d3;
+  width: 100%;
+  bottom: 0;
+  padding: 3% 5%;
+  text-align: center ;
+}
+
+
+.skill-image{
+  width: 60px;
+  height: 50px;
+  padding: 1px;
+}
+
+/* newsletter section */
+.newsletter-gohome-button{
+  display: none;
+}
+.newsletter-gohome-button:hover{
+  color: #fff;
+}
+.newsletter{
+  margin-top: 3rem;
+}
+.newsletter-img{
+  border-radius: 100%;
+  margin-bottom: .5rem;
+}
+.newsletter span{
+  color: green;
+}
+.font-weight-normal{
+  padding-top: 4rem;
+}
+
+
+
+
+
+/* added from bootstrap navbar */
+  body {
+  padding-top: 56px;
+  }
+
+
+  @media only screen and (max-width: 970px) {
+    #loan-percent-calculate{
+      margin-left: 0%;
+    }
+
+    .navbar-brand {
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0;
+    }
+
+    .advert-div{
+      float: left;
+      margin-top: 0;
+    }
+    .nav-item {
+      padding: 0;
+      /* color: yellow; */
+    }
+
+
+      .col-md-4{
+      margin-bottom: 0;
+      /* margin-left: 2.5%; */
+    }
+   
+   .logo-text{
+     font-size: 1.4rem;
+   }
+   h5{
+     font-size: 0.9rem;
+   }
+   .kindOfDay{
+     font-size: 1.1rem;
+   }
+   .date{
+     font-size: 0.8rem;
+   }
+   .newsletter{
+     margin-top: 0;
+   }
+   /* signup section */
+
+  }
+  
+  
+
+  @media only screen and (max-width: 767px){
+
+ 
+    #types-of-loan div.row div h3{
+      color: white;
+    }
+    p{
+      font-size: 1.2rem;
+    }
+
+
+    .navbar-brand {
+      font-weight: bold;
+      padding: 0;
+    }
+    li{
+      margin: 0.6rem;
+    }
+
+
+    .top-div-image{
+      height: 15rem;
+    }
+    .top-div-image img{
+      width: 75%;
+      height: 80%;
+     
+    }
+
+    #top-div div.first-top-left-div{
+      padding-bottom: 6% ;
+    }
+
+  
+
+    /* login form below */
+    .mt-5 h1{
+      margin-top: 6rem;
+    }
+    .login-form-div{
+      margin: 0;
+    }
+    /* customer-account-application */
+    .customer-account-application div.two-persons{
+         margin-top: 3rem;
+    }
+    .customer-account-application-continue-button{
+      margin-left: 30% ;
+    }
+
+    /* customer-contact-information */
+    form.customer-contact-information{
+      margin-top: 2rem;
+    }
+    .contact-detail-section{
+      margin: 0 0 2rem 2% ;
+    }
+    a.previous{
+      margin-left: 8%;
+    }
+    
+    .how-much-do-you-want-to-borrow{
+      padding: 0.5rem 1.5rem;
+      font-size: 1.5rem;
+   }
+     .money-bag-in-hand{
+      margin-top: 5rem;
+      margin-right: 2rem;
+      width: 8rem;
+      height: 7rem;
+    }
+    .do-you-need-extra-money{
+      width: 85%;
+      margin-left: 10%;
+    }
+    .advert-div{
+      float: left;
+      margin-top: 0;
+    }
+    .nav-item {
+      padding: 0;
+    }
+    .nav-link {
+      font-size: 0.9rem;
+    }
+    .col-md-4{
+      margin-bottom: 0;
+      width: 94%;
+      margin-left: 2.5%;
+    }
+    .skill{
+      padding-top: 0;
+      margin: 0;
+    }
+  .about{
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   }
+  .about p{
+     padding-bottom: 0;
+     margin-bottom: 0;
+     font-size: 0.9rem;
+   }
+   .logo-text{
+     font-size: 1.4rem;
+   }
+   h5{
+     font-size: 0.9rem;
+   }
+   .kindOfDay{
+     font-size: 1.1rem;
+   }
+   .date{
+     font-size: 0.8rem;
+   }
+   .newsletter{
+     margin-top: 0;
+   }
+   /* signup section */
+   .signup{
+     margin: 0;
+     padding: 1rem 0 0;
+     font-size: 1.1rem;
+   }
+   .newsletter-input{
+     margin: 0;
+   }
+  
+
+   .newsletter-gohome-button{
+    display: inherit;
+    padding: 0; 
+    border: 1px white solid; 
+background-color: #f44336;
+  }
+  
+ 
+}
+
+@media only screen and (max-width: 360px){
+  .navbar-logo{
+  width:2rem;
+}
+
+  .advert-div{
+    float: left;
+    margin-top: 0;
+  }
+  .nav-item {
+    padding: 0;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+  .col-md-4{
+    margin-bottom: 0;
+    width: 94%;
+    margin-left: 2.5%;
+  }
+  .skill{
+    padding-top: 0;
+    margin: 0;
+  }
+.about{
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+ }
+.about p{
+   padding-bottom: 0;
+   margin-bottom: 0;
+   font-size: 0.9rem;
+ }
+ .logo-text{
+   font-size: 1.4rem;
+ }
+ h5{
+   font-size: 0.9rem;
+ }
+ .kindOfDay{
+   font-size: 1.1rem;
+ }
+ .date{
+   font-size: 0.8rem;
+ }
+ .newsletter{
+   margin-top: 0;
+ }
+ /* signup section */
+ .signup{
+   margin: 0;
+   padding: 1rem 0 0;
+   font-size: 1.1rem;
+ }
+ .newsletter-input{
+   margin: 0;
+ }
+
+ .successText{
+  font-size: 2.1rem;
+ }
+ .newsletter-gohome-button{
+  display: inherit;
+  padding: 0; 
+  border: 1px white solid; 
+  background-color: #f44336;
+}
+
+   }
+
+     
+     
+
+     @media only screen and (max-width: 266px){
+      .money-bag-in-hand{
+        margin-top: 0;
+         margin-left: 6rem;
+      }
+      .nav-item {
+       margin-top: 1.5rem;
+      }
+     
+    }

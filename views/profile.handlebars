@@ -1,0 +1,141 @@
+
+{{!-- navbar started here --}}
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+  <a class="navbar-brand" href="/"> <img style="border-radius: 50%; width:3rem;" src="img/int-logo2.png" alt=""> Billtar Finance</a>
+  <a class="navbar-brand" href="#">{{title}}</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      {{#if user}}
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Logout</a>
+      </li>
+      {{else}}
+      <li class="nav-item active">
+        <a style="color: yellow;" class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="individuals-and-companies">Individuals and Companies</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/">About us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="more-information">More information</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="become-our-customer"> <svg style="width: 20px;" id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260"><defs><style>.cls-1,.cls-1{fill:#dfac08;}.cls-1{fill-rule:evenodd;}</style></defs><title>15</title><circle class="cls-1" cx="100" cy="60" r="50"/><path class="cls-1" d="M144.27,126.79a89.36,89.36,0,0,0-12.9-4.22,70,70,0,0,1-62.76,0A90,90,0,0,0,0,210v20H117.55a85,85,0,0,1,26.73-103.21Z"/><path class="cls-1" d="M195,130a65,65,0,1,0,65,65A65,65,0,0,0,195,130Zm25,75H205v25H185V205H160V185h25V160h20v25h35Z"/></svg> become a customer</a>
+      </li> 
+
+      <li class="nav-item">
+          <a class="nav-link" href="contact-us">Contact us</a>
+      </li>
+      
+      {{/if}}
+      
+    </ul>
+    
+  </div>
+</nav>
+
+{{!-- navbar ended here --}}
+
+  <!-- just added below div to test inner border -->
+
+      <div style="text-align: right; margin-top:3rem;">
+          <h6 style="font-weight: bold;"><img style="border-radius: 50%; width:3rem;" src="img/int-logo2.png" alt="">BILLTAR FINANCE PLC.</h6>
+
+      </div>
+
+            <h2 style="font-weight:bolder;">BILLTAR BANK</h2>
+
+            <p>Mülhauserstrasse 49, Basel, 4056, Switzerland</p>
+            
+      <div style="text-align: right;"><h6 style="font-weight:bolder; padding-right:1rem; font-size:0.7rem; color:red;">
+        Deposit code: <br> BILLTAR/TR/DEPO0097</h6>
+      </div> 
+
+
+
+<div class="row" style=" margin: 3%; margin-top: 5%;">
+<h3>Hello {{user.fullname}},</p>
+</h3> <br>
+
+<h4 style="text-decoration: underline;" >welcome to your Billtar Account</h4>
+
+  </div>
+<div style="text-align: left;">
+
+     <p class="card-title">Account holder's name:  <span style="font-weight:bold;">{{user.fullname}}</span> </p>
+     <p class="card-text">Email: <span style="font-weight:bold;"> {{user.email}}</span><p>
+
+
+  
+<div class="alert-left" style="padding: 1rem 1rem 0 2rem;border: 1px solid;">
+        <p >Account Name: <span style="font-weight:bold;">{{user.fullname}}</span></p>
+        <p style="background-color: rgb(216, 213, 213);" class="lighter-color" >Transaction Type: <SPan style="font-weight:bold;">CREDIT</SPan></p>
+        <p>Amount: <span style="font-weight:bold;">€18,273,592.03</span></p>
+        <p style="background-color: rgb(216, 213, 213);" class="lighter-color">Transaction Currency: <SPan style="font-weight:bold;">EURO</SPan></p>
+        <p>A/C Number: <span style="font-weight:bold;">213XXXX72.MIR</span></p>
+        <P style="background-color: rgb(216, 213, 213);" class="lighter-color">Description: <span style="font-weight:bold;"> Bank deposit, zurich numero de comple postal USB:08-3-3</span></P>
+         <p >Ref. number: <span style="font-weight:bold;">013pmr282470vm0</span></p>
+         <p  style="background-color: rgb(216, 213, 213);">Transaction branch: <span style="font-weight:bold;">BASEL</span></p>
+        <p class="lighter-color">Date: <span style="font-weight:bold;">04/june/2018</span></p>
+        <p style="background-color: rgb(216, 213, 213);">Available Balance: <span style="font-weight:bold;">€18,273,592.03</span></p>
+        <hr>
+      </div>
+      
+<hr>
+  {{!-- second section --}}
+     <div class="alert-left" style="padding: 1rem 1rem 0 2rem;border: 1px solid;">
+        <p style="background-color: rgb(216, 213, 213);" class="lighter-color" >Transaction Type: <SPan style="font-weight:bold;">DEBIT</SPan></p>
+        <p>Amount: <span style="font-weight:bold;">€1,200</span></p>
+        <p style="background-color: rgb(216, 213, 213);" class="lighter-color">Transaction Currency: <SPan style="font-weight:bold;">EURO</SPan></p>
+        <p>A/C Number: <span style="font-weight:bold;">213XXXX72.MIR</span></p>
+        <P style="background-color: rgb(216, 213, 213);" class="lighter-color">Description: <span style="font-weight:bold;">Western union postal USB:09-3-2, house bill.</span></P>
+         <p >Ref. number: <span style="font-weight:bold;">013pmr2872dvmy</span></p>
+         <p  style="background-color: rgb(216, 213, 213);">Transaction branch: <span style="font-weight:bold;">ZURICH</span></p>
+        <p class="lighter-color">Date: <span style="font-weight:bold;">15/sept/2019</span></p>
+        <p style="background-color: rgb(216, 213, 213);">Available Balance: <span style="font-weight:bold;">€18,272,392.03</span></p>
+        <hr>
+      </div>
+      
+<hr>
+  {{!-- second section --}}
+
+     <div class="alert-left" style="padding: 1rem 1rem 0 2rem;border: 1px solid;">
+        <p style="background-color: rgb(216, 213, 213);" class="lighter-color" >Transaction Type: <SPan style="font-weight:bold;">DEBIT</SPan></p>
+        <p>Amount: <span style="font-weight:bold;">€1,700</span></p>
+        <p style="background-color: rgb(216, 213, 213);" class="lighter-color">Transaction Currency: <SPan style="font-weight:bold;">EURO</SPan></p>
+        <p>A/C Number: <span style="font-weight:bold;">213XXXX72.MIR</span></p>
+        <P style="background-color: rgb(216, 213, 213);" class="lighter-color">Description: <span style="font-weight:bold;">Western union postal USB:09-3-2/School T.</span></P>
+         <p >Ref. number: <span style="font-weight:bold;">013pmr2872dvmy</span></p>
+         <p  style="background-color: rgb(216, 213, 213);">Transaction branch: <span style="font-weight:bold;">BASEL</span></p>
+        <p class="lighter-color">Date: <span style="font-weight:bold;">02/may/2020</span></p>
+        <p style="background-color: rgb(216, 213, 213);">Available Balance: <span style="font-weight:bold;">€18,270,592.03</span></p>
+        <hr>
+      </div>
+      
+
+        <a style="margin-top: 1rem;  margin-bottom: 10%;" href="transfer-fund" class="btn btn-lg text-white shadow access-btn">Transfer Fund</a>
+
+</div>
+
+{{!-- footer section --}}
+
+<div style="text-align: center;" class="footer" >
+  <a class="navbar-brand" href="#">Copyright @ billtar-2023</a>
+</div>
+
+

@@ -1,0 +1,300 @@
+
+{{!-- navbar started here --}}
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+  <a class="navbar-brand" href="/"> <img style="border-radius: 50%; width:3rem;" src="img/int-logo2.png" alt=""> Billtar Finance</a>
+  <a class="navbar-brand" href="#">{{title}}</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      {{#if user}}
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Logout</a>
+      </li>
+      {{else}}
+      <li class="nav-item active">
+        <a style="color: yellow;" class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="individuals-and-companies">Individuals and Companies</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/">About us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="more-information">More information</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="become-our-customer"> <svg style="width: 20px;" id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260"><defs><style>.cls-1,.cls-1{fill:#dfac08;}.cls-1{fill-rule:evenodd;}</style></defs><title>15</title><circle class="cls-1" cx="100" cy="60" r="50"/><path class="cls-1" d="M144.27,126.79a89.36,89.36,0,0,0-12.9-4.22,70,70,0,0,1-62.76,0A90,90,0,0,0,0,210v20H117.55a85,85,0,0,1,26.73-103.21Z"/><path class="cls-1" d="M195,130a65,65,0,1,0,65,65A65,65,0,0,0,195,130Zm25,75H205v25H185V205H160V185h25V160h20v25h35Z"/></svg> become a customer</a>
+      </li> 
+
+      <li class="nav-item">
+          <a class="nav-link" href="contact-us">Contact us</a>
+      </li>
+      
+      {{/if}}
+      
+    </ul>
+    
+  </div>
+</nav>
+
+{{!-- navbar ended here --}}
+
+
+<div id="top-div more-information-div" style="margin-top: 2rem;" class="row">
+  <div class="col-md-5 first-top-right-div">
+    <img src="img/next-european-generation.jpg" alt="">
+  </div>
+    <div class="col-md-6 more-info-top-left-div">
+        <p class="section-3-homepage-p">Next Generation Global Funds</p>
+      <h1 style="color: rgb(14, 14, 54); padding-top: 2rem;">10 billion Dollars to promote economy recovery in affected countries</h1>
+      <p style="color: rgb(32, 28, 28);" class="we-take-care-p">If you are an individual or company and you want to develop a 
+          sustainability, digitization or cohesion and equality project, you can apply for online aid through our partner Minsait (Indra).</p>
+
+        <a href="become-our-customer" class="btn btn-lg text-white shadow access-btn">become our customer</a>
+        
+    </div>
+
+</div>
+<br><br>
+
+<section id="section-2-homepage" style="margin-top: 3rem;">
+  <div class="container">
+    <h2>How can you take advantage of this opportunity?</h2>
+    <h5 class="text-muted">Global funds are intended for investments in projects related to sustainability, 
+        digitization and cohesion and equality</h5>
+  </div>
+
+<div class="row" style="padding: 5%;">
+    <div class="col-md-4">
+      <img style="width: 93%;" src="img/man-on-roof.jpg" alt="">
+      <h3 style="margin-top: 5%;" >Sustainability</h3>
+      <p style="text-align: left; padding-left: 2rem;">Access the aid search engine (Minsait) from the following 
+        links and consult all the aid destined to 
+          the execution of environmental impact reduction programs in the field of:</p>
+          <p class="section-3-homepage-p" style="text-align: left; padding-left: 2rem;">- Energy efficiency</p>
+          <p class="section-3-homepage-p" style="text-align: left; padding-left: 2rem;">- Self-consumption of renewable energies</p>
+          <p class="section-3-homepage-p" style="text-align: left; padding-left: 2rem;">- Electric mobility</p>
+          <!-- <p class="section-3-homepage-p"></p> -->
+    </div>
+
+
+    <div class="col-md-4">
+        <img style="width: 93%;" src="img/digitization.jpg" alt="">
+        <h3 style="margin-top: 5%;" >Digitization</h3>
+        <p style="text-align: left; padding-left: 2rem;"> has the purpose of promoting the digital transformation of SMEs
+             and the self-employed, helping them 
+            to implement digitization solutions such as website development, ecommerce, digital marketing and cybersecurity.</p>  
+    </div>
+
+    <div class="col-md-4">
+        <img style="width: 90%;" src="img/equality.jpg" alt="">
+        <h3 style="margin-top: 5%;">Cohesion and equality</h3>
+        <p style="text-align: left; padding-left: 2rem;">
+            They have the objective of promoting intelligent, sustainable and inclusive growth through aid for education, 
+            employment, health, infrastructure for dependents and the promotion of research, culture and sports.
+        </p>
+        <p style="text-align: left; padding-left: 2rem;">The first call for aid is intended for companies with between
+             10 and 49 employees, and will open on March 15
+            , with a maximum amount of aid per beneficiary of €12,000. </p>
+
+    </div>
+</div>
+
+  <a style="margin-bottom: 5rem;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn hover-more-than">become our customer</a>
+</section>
+
+<section id="section-3-homepage">
+  <div class="row" >
+    <div class="col-md-6">
+       <img style="width: 100%;" src="img/2-people-meeting.png" alt="">
+    </div>
+
+    <div class="col-md-6" style="text-align: left; padding: 0 8%; margin-bottom: 0;">
+       <h3 style="margin-bottom: 2rem;">What are Next Generation Global funds?</h3>
+       <p class="text-muted">The Government had planned to establish a budget to develop the globe between 2021 and 2027. Due to
+            the Covid-19 crisis, that budget has been 
+           increased by 10 billion dollars . This increase is what is known as Next Generation Global Funds.</p>
+           <p class="text-muted">The objective is to relaunch the economy in the short term and improve productivity
+                and growth potential
+                in the medium and long term.
+            </p>
+    </div>
+  </div>
+</section>
+
+<section>
+    <img src="img/finger-pressing-button.png" alt="">
+    <h2>You can apply 100% online</h2>
+    <p style="width:60%; margin-left: 18%;">Billtar we give you access to a 100% online process so that you can apply for public aid. The 
+        request is made through a platform of the collaborating company Minsait (Indra).</p>
+        <a style="margin-bottom: 5rem;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn hover-more-than">Find out more</a>
+
+</section>
+
+<section id="section-2-homepage" style="margin-top: 3rem;">
+    <div class="container">
+      <h2>At Billtar we offer you financing to complement the Global funds</h2>
+    </div>
+  
+  <div class="row" style="padding: 5%;">
+      <div class="col-md-4">
+        <img style="width: 93%;" src="img/2-women-chatting.jpg" alt="">
+        <h3 style="margin-top: 5%;" >Loan Advance Funds Next Generation</h3>
+        <p style="text-align: left; padding-left: 2rem;">            
+            When you apply for a public subsidy through the Global Next Generation Funds, 
+            it can take a while until you have the money available. <br> 
+            <br>
+            We have designed this loan so that you do not have to wait. <br>
+            <br>
+            <a style="margin-bottom: 5rem;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn hover-more-than">Apply now</a>
+                
+        </p>
+
+      </div>
+  
+  
+      <div class="col-md-4">
+          <img style="width: 93%;" src="img/black-man-with-clients.jpg" alt="">
+          <h3 style="margin-top: 5%;" >Loan Complement Funds Next Generation</h3>
+          <p style="text-align: left; padding-left: 2rem;">            
+            If you have applied for a grant through Global Next Generation public funds but need more capital,
+             you can use this loan as a complement. 
+             <br>
+             <br>
+             <a style="margin-bottom: 5rem;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn hover-more-than">Apply now</a>
+ 
+         </p>  
+      </div>
+  
+      <div class="col-md-4">
+          <img style="width: 93%;" src="img/lady-at-home.jpg" alt="">
+          <h3 style="margin-top: 5%;">Leasing Furniture Funds Next Generation</h3>
+          <p style="text-align: left; padding-left: 2rem;">            
+            Rent more efficient equipment with the option to buy it later if you're interested.
+            <br>
+            <br>
+            <a style="margin-bottom: 5rem;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn hover-more-than">Apply now</a>
+              
+          </p>
+      </div>
+  </div>
+  
+    <a style="margin-bottom: 5rem;" href="become-our-customer" class="btn btn-lg text-white shadow access-btn hover-more-than">become our customer</a>
+  </section>
+
+<section id="section-5-homepage">
+  <div class="row section-5-homepag-row">
+    <div class="col-md-6">
+      <img class="section-5-homepag-row-img" src="img/new-card-without-cvv.jpg" alt="">
+    </div>
+
+    <div class="col-md-6">
+      <h3 class="section-5-homepag-row-h3">Aqua card. Greater security, greater control</h3>
+      <p style="font-size: 1.3rem; color: rgb(102, 101, 101);">A new card without numbers with which to control all your expenses.</p>
+      <p>- Safer. Neither the card number nor the CVV code is already printed on it. Only you access them through your app.</p>
+      <p>- dynamic CVV. The CVV security code changes automatically, so it is not always the same. This way you 
+        will be more protected in your online purchases.</p>
+        <p>- More control. Temporarily turn your cards off and on whenever you want. This will keep them safe if
+           you can't find them or don't use them.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row section-6-homepage-row">
+    <div class="col-md-6">
+      <h3 class="section-6-homepag-row-h3">With the Change of Bank service we will do the procedures for you</h3>
+      <p class="section-6-homepag-row-p">A free way to bring your income and your receipts, or your entire account 
+        from another bank, without paperwork, without having to go to an office and without talking to the other bank.</p>
+        <a href="become-our-customer" class="btn btn-lg text-white shadow access-btn">become our customer</a>
+        &nbsp; &nbsp;  <a class="top-div-more-information" style=" color: var(--link-text-color,#1973b8);" href="more-information">More information</a> <br>
+    </div>
+    <div class="col-md-6">
+      <img class="section-6-homepag-row-img" src="img/bank-service-change2.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section id="section-7-homepage">
+  <h1>Do you want it now?</h1>
+  <p>In less than 10 minutes you can have your Online Account working.</p>
+  <a href="become-our-customer" class="btn btn-lg text-white shadow access-btn">become our customer</a>
+
+</section>
+
+<section id="section-8-homepage">
+  <div class="row">
+
+    <div class="col-md-6">
+      <img style="width: 50%;" src="img/office5.jpg" alt="">
+    </div>
+
+    <div class="col-md-6 section-8-homepage-second-col">
+      <h3>At Billtar, we also finance sustainable projects</h3>
+      <p style="font-size: 1.3rem;">
+        We are promoting a greener and more sustainable future. One of the ways to achieve this is by offering financing for
+         energy efficiency projects. Whether you access the Next Generation Global Funds or not, you can count on us.
+    </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="information">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="img/branches-ATM.svg" alt="">
+      <p>Branches and ATMs</p>
+      <a href="contact-us">Always close to you</a>
+    </div>
+    <div class="col-md-4">
+      <img src="img/customers-help-center.svg" alt="">
+      <p>Help Center</p>
+      <a href="contact-us">Queries, complaints and incidents</a>
+    </div>
+    <div class="col-md-4">
+      <img src="img/urgent-help2.png" alt="">
+      <p>Urgent help</p>
+      <a href="contact-us">Emergency operations</a>
+    </div>
+  </div>
+
+</section>
+
+<section id="section-9-homepage" class="text-muted">
+  <div class="container">
+    <h4>Legal Information Fast Loan Online</h4>
+    <p>
+      <span>Example with payroll or pension domiciled in Billtar</span> for the amount of € 10,000 for 96 months (8 years). 4,75 % NIR, <span>APR 5,02 %.</span> Constant monthly fee: 125,41 €. 
+      Opening fee on the amount borrowed: € 0. Postage costs: € 0.75 per month. Total amount due: € 12,111.62.
+    </p>
+    <p>
+      <span>Example without payroll or pension domiciled in Billtar</span> for the amount of € 10,000 to 96 months (8 years). 5,75 % NIR, <span>APR 6,07 %.</span> Constant monthly fee: 130,20 €. Opening 
+      fee on the amount borrowed: € 0. Postage costs: € 0.75 per month. Total amount due: € 12,571.27.
+    </p>
+    <p>
+      Calculations based on the loan being formalized on the last day of the month. Exclusive conditions for digital contracts of the fast loan for new customers up to € 20,000 and a single holder, made from April 6 to August 31, 2022. The product 
+      is not available at Billtar branches. Financing subject to prior approval by Banco Bilbao Vizcaya Argentaria, S.A.
+    </p>
+  </div>
+</section>
+
+{{!-- footer section --}}
+
+<div style="text-align: center;" class="footer" >
+  <a class="navbar-brand" href="#">Copyright @ billtar-2023</a>
+</div>

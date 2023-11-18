@@ -1,0 +1,54 @@
+
+{{!-- navbar started here --}}
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+  <a class="navbar-brand" href="/"> <img style="border-radius: 50%; width:3rem;" src="img/int-logo2.png" alt=""> Billtar Finance</a>
+  <a class="navbar-brand" href="#">{{title}}</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      {{#if user}}
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Logout</a>
+      </li>
+      {{else}}
+      <li class="nav-item active">
+        <a style="color: yellow;" class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="individuals-and-companies">Individuals and Companies</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/">About us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="more-information">More information</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="become-our-customer"> <svg style="width: 20px;" id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260"><defs><style>.cls-1,.cls-1{fill:#dfac08;}.cls-1{fill-rule:evenodd;}</style></defs><title>15</title><circle class="cls-1" cx="100" cy="60" r="50"/><path class="cls-1" d="M144.27,126.79a89.36,89.36,0,0,0-12.9-4.22,70,70,0,0,1-62.76,0A90,90,0,0,0,0,210v20H117.55a85,85,0,0,1,26.73-103.21Z"/><path class="cls-1" d="M195,130a65,65,0,1,0,65,65A65,65,0,0,0,195,130Zm25,75H205v25H185V205H160V185h25V160h20v25h35Z"/></svg> become a customer</a>
+      </li> 
+
+      <li class="nav-item">
+          <a class="nav-link" href="contact-us">Contact us</a>
+      </li>
+      
+      {{/if}}
+      
+    </ul>
+    
+  </div>
+</nav>
+
+{{!-- navbar ended here --}}
+<h1>No Message Found</h1>
+<a href="/"><button class="btn btn-danger">Back To Home Page</button></a>
